@@ -1,0 +1,5 @@
+algo = python3 wrapper.py
+paramfile = runfiles/param_space.pcs
+run_obj = quality
+runcount_limit = 2
+deterministic = 1

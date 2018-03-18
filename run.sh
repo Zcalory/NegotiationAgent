@@ -1,0 +1,1 @@
+python3 smac --scenario runfiles/scenario.txt

@@ -1,0 +1,11 @@
+#offering strategies
+param1 categorical {anac2012.AgentMR_Offering, anac2012.IAMHaggler2012_Offering, anac2012.BRAMAgent2_Offering, anac2012.TheNegotiatorReloaded_Offering, anac2012.OMACagent_Offering, anac2012.AgentLG_Offering, anac2012.CUHKAgent_Offering, anac2013.InoxAgent_Offering_OneIssue, anac2013.InoxAgent_Offering, anac2013.Fawkes_Offering} [anac2013.Fawkes_Offering]
+
+#accpetance strategies
+param2 categorical {anac2012.AC_AgentMR, anac2012.AC_IAMHaggler2012, anac2012.AC_BRAMAgent2, anac2012.AC_TheNegotiatorReloaded, anac2012.AC_OMACagent, anac2012.AC_AgentLG, anac2012.AC_CUHKAgent, anac2013.AC_InoxAgent_OneIssue, anac2013.AC_InoxAgent, anac2013.AC_TheFawkes} [anac2013.AC_TheFawkes]
+
+#opponent modelling
+param3 categorical {BayesianModel, CUHKFrequencyModelV2, InoxAgent_OM, TheFawkes_OM} [TheFawkes_OM]
+
+#opponent strategy modelling
+param4 categorical {BestBid, TheFawkes_OMS} [TheFawkes_OMS]

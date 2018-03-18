@@ -1,0 +1,8 @@
+"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Configuration..."
+0.000000, 2147483648.000000, 0.000047, 1, 0.000047, param1=''anac2013.Fawkes_Offering'', param2=''anac2013.AC_TheFawkes'', param3=''TheFawkes_OM'', param4=''TheFawkes_OMS''
+362.639562, 0.860694, 362.678741, 1, 0.039179, param1=''anac2013.Fawkes_Offering'', param2=''anac2013.AC_TheFawkes'', param3=''TheFawkes_OM'', param4=''TheFawkes_OMS''
+1073.079648, 0.375413, 1073.245816, 2, 0.166169, param1=''anac2012.BRAMAgent2_Offering'', param2=''anac2012.AC_AgentMR'', param3=''BayesianModel'', param4=''TheFawkes_OMS''
+1743.487390, 0.254288, 1743.894641, 3, 0.407251, param1=''anac2012.BRAMAgent2_Offering'', param2=''anac2012.AC_OMACagent'', param3=''InoxAgent_OM'', param4=''TheFawkes_OMS''
+4535.933288, 0.216251, 4537.032722, 4, 1.099434, param1=''anac2012.TheNegotiatorReloaded_Offering'', param2=''anac2012.AC_BRAMAgent2'', param3=''CUHKFrequencyModelV2'', param4=''TheFawkes_OMS''
+8238.041404, 0.197370, 8240.134012, 5, 2.092608, param1=''anac2013.InoxAgent_Offering_OneIssue'', param2=''anac2012.AC_BRAMAgent2'', param3=''CUHKFrequencyModelV2'', param4=''TheFawkes_OMS''
+14775.148519, 0.195436, 14779.472720, 6, 4.324201, param1=''anac2012.AgentMR_Offering'', param2=''anac2012.AC_BRAMAgent2'', param3=''InoxAgent_OM'', param4=''TheFawkes_OMS''

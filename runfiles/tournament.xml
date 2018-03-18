@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<multilateralTournamentsConfiguration>
+	<tournaments>
+		<tournament>
+			<deadline>
+				<value>10</value>
+				<type>ROUND</type>
+			</deadline>
+			<protocolItem hasMediatorProfile="false" hasMediator="false"
+				description="Each agents makes offer, counter-offer, or accepts"
+				classPath="negotiator.protocol.StackedAlternatingOffersProtocol"
+				protocolName="Stacked Alternating Offers Protocol for Multi-Lateral Negotiation (SAOPMN)" />
+				<partyRepItems>
+					<boaparty partyName="newParty">
+						<properties/>
+						<biddingStrategy>
+<item classpath="negotiator.boaframework.offeringstrategy.anac2013.Fawkes_Offering"/>
+						</biddingStrategy>
+						<acceptanceStrategy>
+<item classpath="negotiator.boaframework.acceptanceconditions.anac2013.AC_InoxAgent_OneIssue"/>
+						</acceptanceStrategy>
+						<opponentModel>
+<item classpath="negotiator.boaframework.opponentmodel.TheFawkes_OM"/>
+						</opponentModel>
+						<omStrategy>
+<item classpath="negotiator.boaframework.omstrategy.BestBid"/>
+						</omStrategy>							
+					</boaparty>
+					<party classPath="agents.anac.y2016.yxagent.YXAgent">
+						<properties />
+					</party>
+					<party classPath="agents.anac.y2016.caduceus.Caduceus">
+						<properties />
+					</party>
+				</partyRepItems>
+				<partyProfileItems>
+					<item url="file:etc/templates/partydomain/party1_utility.xml" />
+					<item url="file:etc/templates/partydomain/party2_utility.xml" />
+					<item url="file:etc/templates/partydomain/party3_utility.xml" />
+				</partyProfileItems>
+				<repeats>1</repeats>
+				<numberOfPartiesPerSession>3</numberOfPartiesPerSession>
+				<repetitionAllowed>false</repetitionAllowed>
+				<persistentDataType>DISABLED</persistentDataType>
+			</tournament>
+		</tournaments>
+	</multilateralTournamentsConfiguration>
